@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <script defer src="JavaScript/style.js" text="text/JavaScript"></script>
+    <title>CACCO</title>
+    <meta name="author" content="Estefani Ricardo de Souza, Gabrielle Coral e Nerline Bicinthe">
+    <meta name="description" content="Site sobre o CA">
+    <link rel="shortcut icon" type="img/png" href="img/Icone.png">
+</head>
+<body>
+    <!--logo e hamburguer-->
+    <header>
+        <img src="img/Logo.png">
+        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+    </header>
+    <nav id="menu1">
+        <a class="menu2" href="#" onclick="fecharMenu()">&times;</a>
+        <!--menu-->
+        <ul>
+            <li>
+                <a class="item" href="SobreOCA.html">Conheça nosso CA </a>
+                <a class="item" href="SobreOCurso.html">Conheça o Curso </a>
+                <a class="item" href="Documentos.html">Documentos Oficiais </a>
+                <a class="item" href="TopicosDeInteresse.html">Tópico de Interesse </a>
+                <a class="item" href="Eventos.html">Eventos </a>
+            </li>
+        </ul>
+    </nav>
+    <!--carousel-->
+    <article class="todos">
+        <img id="moldura" class="fadeIn" src="img/im1.png" />
+        <section class="grupoBotao">
+            <button id="btnVoltar" class="botao">&lt;</button>
+            <button id="btnAvancar" class="botao">&gt;</button>
+        </section>
+    </article>
+    <!--fim do carousel-->
+    <article class="text">
+        <p> O Centro Acadêmico (CA) é uma entidade que representa todos os estudantes de um curso. Por
+            exemplo, ele deve manter com seus estudantes um canal direto e permanente de contato, realizando discussões,
+            debates, reuniões e festas da maneira mais democrática e aberta possível, para que todos possam participar.
+        </p>
+    </article>
+    <!--final-->
+    <footer>
+        <p class="final">Av. Universitária, 1105 - Universitário, Criciúma - SC, 88806-000</p>
+        <a class="alignment_icon" href="https://www.instagram.com/cacco.unesc/" target="_blank">
+            <img src="./img/iconinstagram.svg" alt="icone_instagram"></a>
+        <a class="alignment_icon" href="mailto:cacco@unesc.net" target="_blank">
+            <img src="./img/iconemail.png" alt="icone_email"></a>
+    </footer>
+</body>
+</html>

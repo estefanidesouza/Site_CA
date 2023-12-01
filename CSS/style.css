@@ -1,0 +1,815 @@
+@charset "utf-8";
+
+/*Tudo*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*Body*/
+body {
+    background-color: #4D1DB5;
+    color: white;
+}
+
+/*Logo*/
+header img {
+    width: 500px;
+}
+
+/*Hamburguer*/
+header a {
+    padding-top: 3px;
+    padding-right: 30px;
+    margin-top: 30px;
+    float: right;
+}
+
+/*Menu lateral(caixa)*/
+nav {
+    height: 100%;
+    width: 0%;
+    background-color: #FE7E83;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+/*Dentro do menu*/
+nav a {
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 30px 30px 30px 30px;
+}
+
+/*Cor do Menu*/
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+p {
+    line-height: 40px;
+    margin: 0 40px;
+    font-family: arial;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*Botoes Eventos(centro rosa)*/
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    align-items: center;
+    font-family: arial;
+    height: 8rem;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+}
+
+/*Texto e foto (SobreOCurso)*/
+section .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 40px;
+    color: #FE7E83;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 40px;
+    font-size: 40px;
+    line-height: 30px;
+    margin: 40px;
+    font-family: arial;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+h2{
+    padding-top: 40px;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 40px;
+    font-family: arial;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+h4{
+    font-size: 20px;
+    line-height: 10px;
+    margin: 40px;
+    text-align: justify;
+    font-family: arial;
+}
+h3{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 40px;
+    text-align: justify;
+    font-family: arial;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+/*Imagem CA*/
+.CA img p {
+    display: inline-block;
+}
+
+/*Classe do X*/
+.menu2 {
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right: 80px;
+}
+
+/*Classe do X*/
+.menu2:hover {
+    color: white;
+    background-color: #4D1DB5;
+}
+
+/*Frases do Menu*/
+.item:hover {
+    color: white;
+    background-color: #4D1DB5;
+}
+
+/**/
+.tudo {
+    text-align: center;
+    width: 100%;
+}
+
+/*Article do carrossel*/
+.todos {
+    position: relative;
+}
+
+/*Botao do carrossel*/
+.grupoBotao {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+}
+
+/*Botao do carrossel*/
+.botao:houver {
+    transition: scale(1.5)
+}
+
+.botao {
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 30px;
+    color: white;
+    background-color: #FE7E83;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+/*Botao Home(CA)*/
+.opcoes {
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #FE7E83;
+    display: block;
+    font-family: arial;
+    border-radius: 10px;
+    line-height: 40px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+/*Botoes do SobreCA */
+.Buton_1 {
+    width: 30rem;
+    height: 20px;
+    background-color: #FE7E83;
+}
+
+/*Margin img(CA) */
+.imgCA {
+    margin-left: 5%;
+}
+
+/*Paragrafo do SobreOCA */
+.SobreOCA p {
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Subtitulo SobreOCA */
+.SobreOCA h3 {
+    font-size: 18px;
+    color: #FE7E83;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+/*Paragrafo SobreOCurso*/
+.content p {
+    margin-left: 10%;
+}
+
+/*Imagem SobreOCurso*/
+.imgcurso {
+    height: 500px;
+    margin-right: 5%;
+}
+
+/*Botoes do SobreOCurso */
+.Buton_2 {
+    width: 30rem;
+    height: 20px;
+    background-color: #FE7E83;
+}
+
+/*Pessoas Diretoria*/
+.pessoas h4 {
+    font-size: 25px;
+    color: #FE7E83;
+    text-shadow: 1px 1px #000;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Paragrafo Diretoria*/
+.pessoas p {
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Titulos*/
+.tituloTop h1 {
+    font-size: 40px;
+    line-height: 60px;
+    background-color: #FE7E83;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px #000;
+}
+
+/*Nome dos interesses*/
+.TopicosInte h2 {
+    font-size: 30px;
+    color: #FE7E83;
+    text-align: center;
+}
+
+/*Paragrafo TopInteresse*/
+.TopicosInte p {
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Subtitulo TopInteresse*/
+.TopicosInte h3 {
+    font-size: 18px;
+    color: #FE7E83;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/*Botao Eventos*/
+.botaoe {
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #FE7E83;
+    display: grid;
+    font-family: arial;
+    border-radius: 10px;
+    line-height: 30px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+/*Texto no Home*/
+.text p {
+    line-height: 40px;
+    margin: 40px;
+    font-family: arial;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Icones do footer*/
+.alignment_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+/*Imagens do carroussel*/
+#moldura {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*Botao voltar do carrossel*/
+#btnVoltar {
+    left: 0;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/*Botao avancar do carrossel*/
+#btnAvancar {
+    right: 0;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 1080px) {
+
+    /*Botao carrosel*/
+    .grupoBotao {
+        top: 35%;
+    }
+}
+
+@media (max-width: 890px) {
+
+    /*Botao carrosel*/
+    .grupoBotao {
+        top: 35%;
+    }
+}
+
+@media (max-width: 760px) {
+
+    /*Logo*/
+    header img {
+        width: 400px;
+    }
+
+    /*Botao hamburguer*/
+    header a {
+        margin-top: 23px;
+        padding-right: 23px;
+    }
+
+    /*Paragrafo*/
+    p {
+        font-size: 18px;
+    }
+
+    /*Botao carrossel*/
+    .grupoBotao {
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        display: flex;
+        width: 100%;
+    }
+
+    /*Titulo Interesses*/
+    .tituloTop h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    /*Espaço footer(botoes)*/
+    .alignment_icon {
+        margin-right: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30%;
+    }
+
+    /*Sem foto*/
+    .imgcurso {
+        display: none;
+    }
+
+    /*Texto Interesses*/
+    .TopicosInte {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    /*Logo*/
+    header img {
+        width: 400px;
+    }
+
+    /*Tamanho hamburguer*/
+    header a {
+        margin-top: 23px;
+        padding-right: 23px;
+    }
+
+    /*Paragrafo*/
+    p {
+        font-size: 15px;
+    }
+
+    /*Botao carrosel*/
+    .grupoBotao {
+        top: 30%;
+    }
+
+    /*Tamanho ao redor do botão*/
+    .opcoes {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*Tamanho ao redor do botão*/
+    .botaoe {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    /*Titulo interesse*/
+    .tituloTop h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    /*Texto interesse*/
+    .TopicosInte {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    /*Sem imagem*/
+    .imgcurso {
+        display: none;
+    }
+
+    /*Espaço footer(botoes)*/
+    .alignment_icon {
+        margin-right: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30%;
+    }
+
+    .final {
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    /*Botao carrosel*/
+    #btnVoltar {
+        left: 0;
+        margin-left: 5px;
+        width: 10px;
+        height: 10px;
+    }
+
+    /*Botao carrosel*/
+    #btnAvancar {
+        right: 0;
+        margin-right: 5px;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    /*Logo*/
+    header img {
+        width: 350px;
+    }
+
+    /*Espaço do hamburguer*/
+    header a {
+        margin-top: 17px;
+        padding-right: 5px;
+    }
+
+    /*Botao carrosel*/
+    .grupoBotao {
+        top: 25%;
+    }
+
+    /*Texto interesse*/
+    .TopicosInte {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    /*Pessoas diretoria*/
+    .pessoas h4 {
+        font-size: 24px;
+    }
+
+    /*Texto diretoria*/
+    .pessoas p {
+        font-size: 18px;
+    }
+
+    /*Botão tamanho*/
+    .Buton_1 {
+        width: 25rem;
+        height: 20px;
+        background-color: #FE7E83;
+    }
+
+    /*Botão tamanho*/
+    .Buton_2 {
+        width: 25rem;
+        height: 20px;
+        background-color: #FE7E83;
+    }
+
+    /*Texto no Home*/
+    .final {
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    /*Espaço footer(botoes)*/
+    .alignment_icon {
+        margin-right: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    /*Botao carrosel*/
+    .grupoBotao {
+        top: 25%;
+    }
+
+    /*Pessoas diretoria*/
+    .pessoas h4 {
+        font-size: 20px;
+    }
+
+    /*Texto diretoria*/
+    .pessoas p {
+        font-size: 16px;
+    }
+
+    /*Espaço footer(botoes)*/
+    .alignment_icon {
+        margin-right: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30%;
+    }
+}
+
+@media (max-width: 460px) {
+
+    /*Espaço do hamburguer*/
+    header a {
+        margin-top: 15px;
+        padding-right: 5px;
+    }
+
+    /*Botao carrosel*/
+    .grupoBotao {
+        top: 16%;
+    }
+
+    /*Pessoas diretoria*/
+    .pessoas h4 {
+        font-size: 20px;
+    }
+
+    /*Texto diretoria*/
+    .pessoas p {
+        font-size: 15px;
+    }
+
+    /*Nome dos interesses*/
+    .TopicosInte h2 {
+        font-size: 25px;
+    }
+
+    /*Paragrafo TopInteresse*/
+    .TopicosInte p {
+        font-size: 15px;
+    }
+
+    /*Subtitulo TopInteresse*/
+    .TopicosInte h3 {
+        font-size: 20px;
+        color: #FE7E83;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    /*Botão tamanho*/
+    .Buton_1 {
+        width: 20rem;
+        height: 20px;
+        background-color: #FE7E83;
+    }
+
+    /*Botão tamanho*/
+    .Buton_2 {
+        width: 20rem;
+        height: 20px;
+        background-color: #FE7E83;
+    }
+
+    /*Espaço footer(botoes)*/
+    .alignment_icon {
+        margin-right: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30%;
+    }
+
+    /*Botao carrosel*/
+    #btnVoltar {
+        left: 0;
+        margin-left: 5px;
+        width: 5px;
+        height: 5px;
+    }
+
+    /*Botao carrosel*/
+    #btnAvancar {
+        right: 0;
+        margin-right: 5px;
+        width: 5px;
+        height: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    /*Logo*/
+    header img {
+        width: 270px;
+    }
+
+    /*Espaço do hamburguer*/
+    header a {
+        margin-top: 10px;
+        padding-right: 10px;
+        font-size: 35px
+    }
+
+    nav a {
+        color: white;
+        font-size: 15px;
+        display: block;
+        padding: 30px 30px 30px 30px;
+    }
+
+    /*Botao carrosel*/
+    .grupoBotao {
+        top: 5%;
+    }
+
+    /*Titulo interesse*/
+    .tituloTop h1 {
+        font-size: 15px;
+    }
+
+    /*Pessoas diretoria*/
+    .pessoas h4 {
+        font-size: 13px;
+    }
+
+    /*Texto diretoria*/
+    .pessoas p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    /*Paragrafo do SobreOCA */
+    .SobreOCA p {
+        font-size: 10px;
+    }
+
+    /*Subtitulo SobreOCA */
+    .SobreOCA h3 {
+        font-size: 13px;
+        color: #FE7E83;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+
+    /*Botão tamanho*/
+    .Buton_1 {
+        width: 15rem;
+        height: 20px;
+        background-color: #FE7E83;
+    }
+
+    /*Botão tamanho*/
+    .Buton_2 {
+        width: 15rem;
+        height: 20px;
+        background-color: #FE7E83;
+    }
+
+    /*Espaço footer(botoes)*/
+    .alignment_icon {
+        margin-right: 20px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30%;
+    }
+
+    .text p {
+        line-height: 30px;
+        font-size: 13px;
+    }
+
+    .content p {
+        font-size: 13px;
+    }
+
+    /*Texto no Home*/
+    .final {
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    /*Nome dos interesses*/
+    .TopicosInte h2 {
+        font-size: 20px;
+    }
+
+    /*Paragrafo TopInteresse*/
+    .TopicosInte p {
+        font-size: 13px;
+    }
+
+    /*Subtitulo TopInteresse*/
+    .TopicosInte h3 {
+        font-size: 15px;
+        color: #FE7E83;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    /*Botao carrosel*/
+    #btnVoltar {
+        left: 0;
+        margin-left: 1px;
+        width: 2px;
+        height: 2px;
+    }
+
+    /*Botao carrosel*/
+    #btnAvancar {
+        right: 0;
+        margin-right: 1px;
+        width: 1px;
+        height: 1px;
+    }
+}
